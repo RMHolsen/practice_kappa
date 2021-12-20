@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    $_REQUEST:
+    <?php print_r($_REQUEST) ?>
+    <!-- REQUEST is an associative array with the data from both GET and POST, and is generally only useful if you don't care which method is used -->
+    <br>
+    $_GET:
+    <?php print_r($_GET) ?>
+    <br>
+    $_POST:
+    <?php print_r($_POST) ?>
+    <form method="get">
+        <!-- GET sends the form data via the URL parameters -->
+        <!-- If you want to send the user to another page following the submit, use action="other_url.php/.html" in the form tag -->
+        GET Form: <input type="text" name="get_name">
+        <input type="submit" value="Submit GET">
+    </form>
+    <form method="post">
+        <!-- POST sends the form data via the HTTP request headers; the form data won't appear in the URL -->
+        POST Form: <input type="text" name="post_name">
+        <input type="submit" value="Submit POST">
+    </form>
+    <a href="index.php">Reset</a>
+</body>
+
+</html>
