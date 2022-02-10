@@ -13,8 +13,8 @@ $other_array = array("Thing One", "Thing Two", "Cat in a Hat");
 // ordered arrays are otherwise known as hashes. Remember hashes? We hate them now.
 
 $ordered_array = [
-    "Stupid hashes" => "Ugh"
-    "You only say that because" => "You haven't used them enough to become fluent"
+    "Stupid hashes" => "Ugh",
+    "You only say that because" => "You haven't used them enough to become fluent",
     "100 hours of hashes" => "You will be fluent"
 ];
 

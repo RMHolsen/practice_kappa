@@ -5,35 +5,35 @@
 // formatted largely like javascript, right down to the === being absolute 
 
 if ($condition == TRUE) {
-    print "Something happens here"
+    echo "Something happens here";
 } elseif ($condition == FALSE) {
-    print "Something else happens here"
+    echo "Something else happens here";
 } else {
-    print "The default goes here"
+    echo "The default goes here";
 }
 
 // case statements
 switch ($variable) {
     case "first case":
-        print "This is the first case";
+        echo "This is the first case";
         break;
-    case "second case"
-        print "this is the second case";
+    case "second case":
+        echo "this is the second case";
         break;
-    case "third case"
-        print "this is the third case";
+    case "third case":
+        echo "this is the third case";
         break;
-    case "fourth case"
-        print "this is the fourth case";
+    case "fourth case":
+        echo "this is the fourth case";
         break;
-    case "just in case"
-        print "This is the just in case";
+    case "just in case":
+        echo "This is the just in case";
         break;
-    case "sixth case"
-        print "There is nooooooooooooooooooooo \nrule six.";
+    case "sixth case":
+        echo "There is nooooooooooooooooooooo \nrule six.";
         break;
     default: 
-        print "This is the default";
+        echo "This is the default";
         break;
 }
 
