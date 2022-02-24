@@ -22,6 +22,16 @@
         <input type="submit" value="Submit POST">
     </form>
     <a href="index.php">Reset</a>
+
+    <form method="post" action="">
+        <!-- Using POST means all data is available in the superglobal associative array/hash $_POST 
+        action="some_url_that_users_go_to_after_submitting_data"-->
+        <p>Your name: <input type="text" name="name" /></p>
+        
+        <p>Your favorite programming language: </p> <input type="text" name="language">
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
 
 </html>
